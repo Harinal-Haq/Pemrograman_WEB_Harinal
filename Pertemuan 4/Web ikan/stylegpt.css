@@ -1,0 +1,98 @@
+/* Reset dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Header */
+header {
+    background-color: #3498db;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Navigasi */
+nav {
+    background: #2c3e50;
+    margin: 20px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+}
+
+nav ul li a:hover {
+    background-color: #34495e;
+}
+
+/* Artikel */
+article {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.konten, .kontak {
+    background-color: #ecf0f1;
+    padding: 15px;
+    width: 48%;
+    border-radius: 8px;
+}
+
+.konten img, .kontak img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.judul a {
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+    color: #2c3e50;
+    text-decoration: none;
+}
+
+.judul a:hover {
+    color: #2980b9;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 30px;
+    padding: 10px;
+    background: #ddd;
+    font-size: 14px;
+    color: #555;
+}
